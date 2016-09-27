@@ -15,6 +15,90 @@ body {
 }
 
 .card-panel {
-	padding: 10px;
-	background-color: rgba(239, 239, 239, 0.5)
+	padding: 10px 10px 5px 10px;
+	background-color: rgba(239, 239, 239, 0.5);
+	position: relative;
+	margin-top: 120px;
+}
+
+#title	{
+	position: absolute;
+	margin-left: 20px;
+	margin-top: -70px;
+}
+
+#saw	{
+	position: absolute;
+	margin-top: 130px;
+	margin-left: -50px;
+}
+
+#hammer {
+	position: absolute;
+	margin-top: -70px;
+	margin-left: 490px;
+}
+
+#pincers {
+	position: absolute;
+	margin-top: 260px;
+	margin-left: 570px;
+}
+
+#screwdriver {
+	position: absolute;
+	margin-top: 160px;
+	margin-left: 550px;
+}
+
+#toolbox {
+	position: relative;
+	top: 200px;
+	left: 220px;
+}
+
+.header	{
+	background-image: url(./bar1.png);
+	width: 1000px;
+	height: 30px;
+	margin: auto;
+}
+
+.headertext {
+	text-decoration: none;
+	padding: 5px 15px 5px 15px;
+	color: #959595;
+}
+
+#humanfactor {
+	color: blue
+}
+
+#humaninfo {
+	display: none;
+}
+
+ul {
+	display: none;
+	list-style-type: none;
+}
+
+#toolbox:hover > ul {
+	display: inherit;
+	position: absolute;
+	top: -55px;
+	left: -40px;
+}
+
+.toolboxtext {
+	text-decoration: none;
+	color: black;
+	display: block;
+	background-color: white;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.toolboxtext:hover {
+	background-color: #FEFF88;
 }
