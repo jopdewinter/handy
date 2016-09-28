@@ -4,6 +4,7 @@ body {
 	font-size : 14px;
 	background-color : black;
 	/* toe te voegen */
+	margin:0;
 }
 .all {
 	text-align : left;
@@ -57,9 +58,28 @@ body {
 	left: 220px;
 }
 
+.header:hover {
+	background-image: url(./bar2.png);
+	height: 30px;
+	background-repeat: repeat-x
+}
+
+.container {
+	position: relative;
+	margin: 0 auto;
+	width: :960px;
+}
+
+.header:hover > .header2 {
+	display: inherit;
+	position: absolute;
+	width: 1000px;
+	height: 30px;
+	margin: auto;
+}
+
 .header	{
 	background-image: url(./bar1.png);
-	width: 1000px;
 	height: 30px;
 	margin: auto;
 }
@@ -68,14 +88,30 @@ body {
 	text-decoration: none;
 	padding: 5px 15px 5px 15px;
 	color: #959595;
+
 }
 
 #humanfactor {
 	color: blue
 }
 
+#humanfactor:hover > #humaninfo {
+	display: inherit;
+	position: absolute;
+	top: 132px;
+	left: 583px;
+}
+
 #humaninfo {
 	display: none;
+	text-decoration: none;
+	background-color: white;
+	border: 2px solid blue;
+	padding: 5px;
+	width: 200px;
+	height: auto;
+	color: black;
+	border-radius: 11px;
 }
 
 ul {
